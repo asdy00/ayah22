@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://pixeldrain.com/api/file/B12n5ZdQ.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+.b-bocil{
+margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://pixeldrain.com/api/file/juKXUcyq.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.kategori-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kategori-list > li {
+    margin-bottom: 30px;
+}
+
+.kategori-list h3 {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-left: 5px solid #fff;
+}
+
+.video-list {
+    list-style: disc;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+  gap: 20px; /* Jarak antar video */
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.video-grid video {
+  width: 100%;  /* Biar menyesuaikan kolom */
+  height: auto;
+  border: 2px solid #444;
+  border-radius: 8px;
+}
+
+.list{
+  color: white;
+  text-decoration: none;
+}
+.list:hover {
+  transition: .04s ease-in-out;
+  transition-delay: .02s;
+  margin: 100px;
+}
